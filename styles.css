@@ -4,14 +4,67 @@ html {
     rgb(156, 159, 252) 11.2%,
     rgb(18, 27, 101) 91.1%
   );
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+.popup {
+  background-color: #ffffff;
+  width: 420px;
+  padding: 30px 40px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 35%;
+  border-radius: 8px;
+  display: none;
+  font-family: “Poppins”, sans-serif;
+  text-align: center;
+  z-index: 10;
+}
+.popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 25px;
+  color: #ffffff;
+  background: linear-gradient(to right, #8800ff, #320097d8);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.popup h2 {
+  margin-top: -20px;
+}
+.popup p {
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px 0;
+  line-height: 25px;
+}
+.popup a {
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  background: linear-gradient(to right, #8800ff, #320097d8);
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 0;
+}
+.page-container {
+  height: fit-content;
+}
+.page-container.main {
+  height: fit-content;
 }
 .navigation-bar-container {
   background-image: linear-gradient(to right, #8800ff, #320097d8);
   position: relative;
-}
-.navigation-bar-container {
   flex: content;
 }
 .go-to-top {
@@ -38,6 +91,10 @@ a {
   margin-right: 20%;
   margin-top: -2px;
   padding-top: 10px;
+  height: 1100px;
+}
+.page-content.main {
+  height: fit-content;
 }
 body {
   text-align: center;
@@ -104,9 +161,6 @@ h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   overflow: hidden;
-}
-.card-side.back {
-  color: rgb(255, 255, 255);
 }
 .card {
   flex: 1;
@@ -191,4 +245,29 @@ ol {
   padding-top: 10px;
   display: flex;
   justify-content: flex-end;
+}
+
+input[type="text"] {
+  width: 250px;
+  padding: 8px 20px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.homeButton {
+  margin: 30px;
+}
+.page-content p {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  width: 150px;
+  padding: 8px 10px;
+  margin: 20px;
+  font-weight: bold;
+  border-radius: 25px;
 }

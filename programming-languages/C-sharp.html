@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="html" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,60 +7,71 @@
     <title>Document</title>
   </head>
   <link rel="stylesheet" href="../styles.css" />
-  <nav class="navigation-bar-container">
-    <ul>
-      <li>
-        <a class="navigation-bar item1 active" href="../MainPage.html">Home</a>
-      </li>
-      <li><a class="navigation-bar item2 active" href="#">about</a></li>
-      <li>
-        <a class="navigation-bar item3 active" href="#">courses</a>
+  <script src="../index.js"></script>
+  <body>
+    <div class="page-container">
+      <nav class="navigation-bar-container">
         <ul>
           <li>
-            <a
-              class="navigation-bar item3 drop-down"
-              href="../programming-languages/java.html"
-              >Java</a
-            >
+            <a class="navigation-bar item1 active" href="../Index.html">Home</a>
+          </li>
+          <li><a class="navigation-bar item2 active" href="#">about</a></li>
+          <li>
+            <a class="navigation-bar item3 active" href="#">courses</a>
+            <ul>
+              <li>
+                <a
+                  class="navigation-bar item3 drop-down"
+                  href="../programming-languages/java.html"
+                  >Java</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navigation-bar item3 drop-down"
+                  href="../programming-languages/Javascript.html"
+                  >JavaScript</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navigation-bar item3 drop-down"
+                  href="../programming-languages/C++.html"
+                  >C++</a
+                >
+              </li>
+              <li>
+                <a class="navigation-bar item3 drop-down" href="#">C#</a>
+              </li>
+              <li>
+                <a
+                  class="navigation-bar item3 drop-down"
+                  href="../programming-languages/Python.html"
+                  >Python</a
+                >
+              </li>
+            </ul>
           </li>
           <li>
-            <a
-              class="navigation-bar item3 drop-down"
-              href="../programming-languages/Javascript.html"
-              >JavaScript</a
-            >
+            <a class="navigation-bar item4 active" href="../join.html">Join</a>
           </li>
           <li>
-            <a
-              class="navigation-bar item3 drop-down"
-              href="../programming-languages/C++.html"
-              >C++</a
-            >
-          </li>
-          <li>
-            <a class="navigation-bar item3 drop-down" href="#">C#</a>
-          </li>
-          <li>
-            <a
-              class="navigation-bar item3 drop-down"
-              href="../programming-languages/Python.html"
-              >Python</a
-            >
+            <a class="navigation-bar item5 active" href="#">Contact us</a>
           </li>
         </ul>
-      </li>
-      <li><a class="navigation-bar item4 active" href="#">Join</a></li>
-      <li><a class="navigation-bar item5 active" href="#">Contact us</a></li>
-    </ul>
-  </nav>
-  <body>
-    <h1>C#</h1>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
-      necessitatibus veritatis sunt aperiam repellat magni nihil, in expedita
-      vel, debitis omnis illo quos non eos corrupti. Minus, nesciunt quisquam.
-      Id.
-    </p>
-    <a href="../MainPage.html">Home page</a>
+      </nav>
+      <div class="page-content">
+        <h1>C#</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+          necessitatibus veritatis sunt aperiam repellat magni nihil, in
+          expedita vel, debitis omnis illo quos non eos corrupti. Minus,
+          nesciunt quisquam. Id.
+        </p>
+        <div class="homeButton">
+          <a href="../Index.html">Home page</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
