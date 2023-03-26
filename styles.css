@@ -293,3 +293,9 @@ input[type="submit"] {
   font-weight: bold;
   border-radius: 25px;
 }
+
+.error {
+  display: none;
+  font-weight: bolder;
+  color: red;
+}
